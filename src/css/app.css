@@ -1,3 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.wrapper {
+  background-color: #18191a;
+  min-height: 100vh;
+  transition: 0.5s;
+}
+.homeWrapper {
+  display: flex;
+}
+.center {
+  flex: 1;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.signupContainer {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  min-height: 75vh;
+}
