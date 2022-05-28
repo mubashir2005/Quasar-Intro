@@ -1,5 +1,5 @@
 .wrapper {
-  background-color: #18191a;
+  background-color: black;
   min-height: 100vh;
   transition: 0.5s;
 }
@@ -16,7 +16,8 @@
 }
 .signupContainer {
   display: flex;
-  justify-items: center;
   justify-content: center;
-  min-height: 75vh;
+  align-items: center;
+  width: 100vw;
+  min-height: 70vh;
 }

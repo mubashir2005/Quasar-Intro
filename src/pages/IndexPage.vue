@@ -1,5 +1,5 @@
 <script>
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref, toRef } from "vue";
 import SignUp from "../components/SignUp.vue";
 
 export default defineComponent({
@@ -12,6 +12,9 @@ export default defineComponent({
     // expose to template and other options API hooks
     return {
       registered,
+      name,
+      url,
+      users,
     };
   },
   mounted() {
@@ -35,7 +38,13 @@ export default defineComponent({
       <div class="main">Hello</div>
     </div>
     <div class="signupContainer" v-else>
-      <SignUp />
+      <SignUp
+        registered="registered"
+        :name="name"
+        :url="url"
+        v-on:update:name="name = $event"
+        v-on:update:url="url = $event"
+      />
     </div>
   </div>
 </template>
