@@ -4,7 +4,7 @@ use anchor_spl::token::{self, Token};
 use std::mem::size_of;
 
 // Declare program ID
-declare_id!("9TRRoJBjrAK3BeDSL2ZVor9fw97jzcQkvw2DV3gRXCHN");
+declare_id!("6u79vYDv2ornC94WwJFRmH4AcaGyy8bR4LFG662MLvfr");
 
 // Post and comment text length
 const TEXT_LENGTH: usize = 1024;
@@ -249,3 +249,11 @@ pub struct CommentAccount {
     // Post time
     pub post_time: i64,
 }
+//pubkey: 8dD8i6VAHaT1hKDCsYrWPq7CauLqoyfyX7HWkViDVLqS
+
+//Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+//laundry spike equal afford puppy hotel worth dignity victory day fabric piece
+
+
+//2SjmAQ4pPUJf8DCKZbb9E39Mjxj7S4nvyCELmV8i4Uvy
+//hybrid turkey combine claim sibling retreat bronze engine near climb boil reveal
