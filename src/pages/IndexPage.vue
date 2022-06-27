@@ -23,14 +23,6 @@ export default defineComponent({
   components: { SignUp },
 });
 
-// 9RJXi3rAun4YDHzAEDmmVqNaYwdN4JXALrFeDGEjUZFB
-
-//quarter cruel sugar foster cross plunge warm come column double lab eight
-
-//New Wallet
-// 3DJdyCwdNKupfNxi6aY1vehpgZ7DeCrzDfXJDdCttT9z
-
-//repeat engage leaf unaware barrel cycle rally truck crazy language rocket deal
 </script>
 <template>
   <div class="wrapper">
