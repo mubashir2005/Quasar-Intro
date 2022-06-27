@@ -1,6 +1,4 @@
-# VTalk (vtalk)
-
-Decentralized, censorship resistant social media platform
+# Trying Quasar.js for the first time
 
 ## Install the dependencies
 ```bash
